@@ -336,95 +336,50 @@
 .bussiness-scope a:hover{
     background-color: #0000ff;
     transition: 0.5s;
-}
-       /* BLOG SPOTS */
-.blog-posts{
-    width: 1300px;
-    margin-top: 20px;
-    height: 520px;
-}
-.title-blog{
-    font-size: 33px;
+}  
+/* BLOG SPOTS */
+.blogpost-title{
     text-align: center;
-    font-weight: 500;
+    font-size: 26px;
 }
-.blog-image{
+.blog-section{
     display: flex;
-    flex-direction: row;
-    width: 1300px;
-    height: 500px;
-    box-sizing: border-box; 
-    padding: 10px 8px 0px 20px;
-
-}
-.spot-image{
     box-sizing: border-box;
-    width: 280px;
-    outline: 2px solid red;
-    height: 210px;
-    overflow: hidden;  
-}
-.blog-same-img{
-    width: 280px;
-    height: 200px; 
-}
-.blog-content{
-    margin-top: 10px;
-}
-.blog1-content ,
-.blog2-content,
-.blog3-content,
-.blog4-content{
-    line-height: 28px;
-    
-}
-.blog-content h4{
-    font-size: 18px;
-    color: rgb(87, 77, 77);
-    font-family: "Montserrat",sans-serif;
-    padding-top: 10px;
-}
-.blog-date{
-    color: #0000ff;
-    font-size: 16px;
-}
-.blog-name{
-    color: rgb(0, 0, 0);
-}
+    padding: 30px;  
+}  
 .blog-text{
-    color: rgb(147, 120, 120);
-    font-family: "Montserrat",sans-serif;
-    padding:10px 0px 10px 0px ;
+    margin-top: 10px;
+    line-height: 25px;
 }
-.blog1-content a,.blog2-content a,.blog3-content a,.blog4-content a{
-    color: rgb(0,0,0);
-    font-size: 16px;
+.blogpost-image{
+    padding: 10px;
+    overflow: hidden;
+    
+}  
+.post-header{
+    display: flex;
+    flex-direction: column;
+    width: 21%;
+   
+    padding: 20px; 
+    height: 500px;
+}
+.blog-text a{
     text-decoration: none;
-}
-.blog-same-img:hover .image-1{
-    position: absolute;
-    width: 10%;
-}
-.blog-same-img:hover .image-1,
-.blog-same-img:hover .image-2,
-.blog-same-img:hover .image-3,
-.blog-same-img:hover .image-4{
+    font-size: 16px;
+}  
+.post-header:hover .blogpost-image{
     transform: scale(1.1);
-    overflow:hidden;
-    transition: 0.8s;
-} 
-.spot-image:hover .blog1-content h4 ,
-.spot-image:hover .blog2-content h4,
-.spot-image:hover .blog3-content h4,
-.spot-image:hover .blog4-content h4  
-{
-    color: #3333a4;
-    transition: 0.5s;
+    transition: 0.8s;  
 }
-.spot-image:hover a{
+.post-header:hover .blog-text h4{
+    color: #0000ff;
+    transition: 0.5s;    
+}
+.post-header:hover .blog-text a{
     color: #31b8fe;
-    transition: 0.5s;
 }
+
 .nova-last{
     height: 400px;
     width: 1300px;
