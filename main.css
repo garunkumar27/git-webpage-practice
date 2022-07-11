@@ -1,14 +1,14 @@
 .container{
    width: 1300px;
-   /* margin: auto; */
+   margin: auto; 
 }
 .navigation{
     display: flex;
     justify-content: space-between;
-    width: 1500px;
+    width: 1300px;
     height: 100px;
+    margin-left: 25px;
     position: fixed;
-
     background-color: rgba(27, 47, 69, 0.9); 
    
 }
@@ -39,48 +39,56 @@
     display: flex;
     justify-content: space-between;
     height:500px;
-    padding-top: 100px;
+    padding-top: 100px; 
 }
 .focus-text h3{
     margin: 50px 0px 0px 70px;
     color: #fff;
     font-size: 36px;
     padding: 20px;
-
 }
 .focus-text{
     background-color: rgba(27, 47, 69, 0.9);
     width: 500px;
 }
 .focus-img{
+    background-image: url('../Picture/staffs.jpg');
+    background-size: cover;
     width: 800px;
-    height: 300px;
+    height: 500px;
+}
+.bg-img{
+    background-color: rgba(27, 47, 69, 0.6);
+    width: 800px;
+    height: 500px;
 }
 .get-watch{
-    padding-top: 30px;
+    padding: 30px 0px 0px 80px;
 }
 .start {
     color: #fff;
     background-color: #31b8fe;
     text-decoration: none;
-    border-radius: 20px;
+    border-radius: 22px;
     font-size: 18px;
     margin-top: 50px;
-    padding: 10px;
+    padding: 15px;
 }
 .start:hover{
-    background-color: #0000ff;
-    transition: 0.5s;
+    background-color: #3974ac;
+    transition: 0.6s;
 }
 .get-watch i{
     padding-left: 50px;
+    font-size: 30px;
+    color: #31b8fe;
 }
 .watch{
     color: rgb(147, 120, 120);
     font-size: 18px;
     transition: 0.5s;
     text-decoration: none;
-    background-color: rgba(27, 47, 69, 0.9); 
+    padding: 5px;
 }
 .watch:hover{
     color: #fff;
@@ -88,8 +96,6 @@
 .line-content{
     display: flex;
     padding: 20px 0px 0px 110px;
-   
-
 }
 .line {
     width: 3px;
@@ -103,97 +109,6 @@
     margin: 10px 0px 0px 20px;
     width: 300px;
 }
-/* .header-navi{
-    display: flex;
-    justify-content: space-between;
-    background-attachment: fixed;
-}
-.header{
-    width: 600px;
-    padding: 30px 0px 0px 50px;
-    color: #fff;
-    font-size: 30px;
-    font-weight: 500;
-    height: 500px;
-    background-color: rgba(27, 47, 69, 0.9); 
-    font-family:-apple-system, BlinkMacSystemFont,
-     'Segoe UI', Roboto, 'Helvetica Neue', Arial, 
-     'Noto Sans', sans-serif, 
-     'Apple Color Emoji', 'Segoe UI Emoji', 
-    'Segoe UI Symbol', 'Noto Color Emoji'; 
-}
-.focus{
-    font-size: 40px;
-    padding-top: 60px;
-    font-weight: 500;
-}
-.line-content{
-    display: flex;
-    padding-top: 20px;
-}
-.line{
-    width: 5px;
-    height: 90px;
-    background-color: #31b8fe;  
-}
-.content{
-    font-size: 15px;
-    padding: 20px 0px 0px 15px;
-}
-.get-watch{
-    padding-top: 30px;
-}
-.start {
-    color: #fff;
-    background-color: #31b8fe;
-    text-decoration: none;
-    border-radius: 20px;
-    font-size: 18px;
-    margin-top: 50px;
-    padding: 10px;
-}
-.start:hover{
-    background-color: #0000ff;
-    transition: 0.5s;
-}
-.get-watch i{
-    padding-left: 50px;
-}
-.watch{
-    color: rgb(147, 120, 120);
-    font-size: 18px;
-    transition: 0.5s;
-    text-decoration: none;
-}
-.watch:hover{
-    color: #fff;
-}
-.navigation{
-    width: 800px;
-    background-image: url('../Picture/staffs.jpg');
-    background-size: cover;
-    list-style-type: none;
-    height: 490px;
-    padding-top: 40px;
-    color: #fff;
-    transition: 0.2s;
-}
-.navigation li a{
-    text-decoration: none;
-    color: rgb(147, 120, 120);
-    padding: 20px;
-}
-.navigation li a:hover{
-    color: #fff;
-}
-.staffs-img{
-    display: flex;
-    justify-content: space-evenly;
-    background-color: rgba(27, 47, 69, 0.9);
-    width:715px;
-    transform: translateY(-40px);
-    height: 530px;  
- }/ */
 .page2{
     display: flex;
     justify-content: space-between;
@@ -299,6 +214,7 @@
     width: 1300px;
     height: 400px;
     text-align: center;
+    margin: auto;
     margin-top: 50px;
     color: #fff;
     font-style:"Raleway", sans-serif;
