@@ -6,9 +6,10 @@
     display: flex;
     justify-content: space-between;
     width: 1300px;
-    height: 100px;
+    height: 80px;
     margin-left: 25px;
     position: fixed;
+    z-index: 99;
     background-color: rgba(27, 47, 69, 0.9); 
    
 }
@@ -39,7 +40,7 @@
     display: flex;
     justify-content: space-between;
     height:500px;
-    padding-top: 100px; 
+    padding-top: 80px; 
 }
 .focus-text h3{
     margin: 50px 0px 0px 70px;
@@ -377,7 +378,7 @@
     flex-direction: column;
     width: 21%;
     padding: 20px; 
-    height: 500px;
+    height: 380px;
 }
 .blog-date{
     color: #0000ff;
